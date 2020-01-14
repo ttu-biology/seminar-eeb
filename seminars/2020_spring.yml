@@ -3,7 +3,7 @@
 
 seminars:
   - date: "January 15, 2020"
-    title: "TBA"
+      title: "TBA"
     speaker: "TBA"
     speaker_website: ""
     host: "TBA"
@@ -80,10 +80,10 @@ seminars:
 
   - date: "March 25, 2020"
     title: "TBA"
-    speaker: "TBA"
-    speaker_website: ""
-    host: "TBA"
-    host_website: ""
+    speaker: "Dr.  Nik Cunniffe"
+    speaker_website: "https://www.plantsci.cam.ac.uk/research/nikcunniffe"
+    host: "Dr. Linda Allen and Dr. Ken Schmidt"
+    host_website: "https://www.depts.ttu.edu/biology/people/Faculty/Schmidt/"
     is_cancelled: false
 
   - date: "April 01, 2020"
