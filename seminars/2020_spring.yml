@@ -2,15 +2,15 @@
 # Spring 2020 schedule
 
 seminars:
-  - date: "January 15, 2010"
+  - date: "January 15, 2020"
     title: "TBA"
-    speaker: "Google"
-    speaker_website: "https://www.google.com"
-    host: "John Doe - Texas Tech University"
-    host_website: "https://www.depts.ttu.edu/biol/"
+    speaker: "TBA"
+    speaker_website: ""
+    host: "TBA"
+    host_website: ""
     is_cancelled: false
 
-  - date: "January 22, 2010"
+  - date: "January 22, 2020"
     title: "TBA"
     speaker: "TBA"
     speaker_website: ""
@@ -80,10 +80,10 @@ seminars:
 
   - date: "March 25, 2020"
     title: "TBA"
-    speaker: "TBA"
-    speaker_website: ""
-    host: "TBA"
-    host_website: ""
+    speaker: "Dr.  Nik Cunniffe"
+    speaker_website: "https://www.plantsci.cam.ac.uk/research/nikcunniffe"
+    host: "Dr. Linda Allen and Dr. Ken Schmidt"
+    host_website: "https://www.depts.ttu.edu/biology/people/Faculty/Schmidt/"
     is_cancelled: false
 
   - date: "April 01, 2020"
