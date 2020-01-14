@@ -2,15 +2,15 @@
 # Spring 2020 schedule
 
 seminars:
-  - date: "January 15, 2010"
+  - date: "January 15, 2020"
     title: "TBA"
-    speaker: "Google"
-    speaker_website: "https://www.google.com"
-    host: "John Doe - Texas Tech University"
-    host_website: "https://www.depts.ttu.edu/biol/"
+    speaker: "TBA"
+    speaker_website: ""
+    host: "TBA"
+    host_website: ""
     is_cancelled: false
 
-  - date: "January 22, 2010"
+  - date: "January 22, 2020"
     title: "TBA"
     speaker: "TBA"
     speaker_website: ""
