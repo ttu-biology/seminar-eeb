@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+article {
+  width: auto;
+  height: auto;
+  margin-left: 5%;
+  margin-right:10%
+}
+section {
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background: grey;
+  background-image: linear-gradient(rgb(204,204,204), rgb(215,215,215), rgb(220,220,220), rgb(215,215,215), rgb(204,204,204));
+  border-radius: 10px;
+}
+
+.date {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.speaker_website {
+  font-style: italic;
+}
+
+.host_website {
+  font-style: italic;
+}
+
+section.past_seminar {
+  opacity: 0.60; 
+}

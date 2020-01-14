@@ -1,0 +1,127 @@
+# Ecology, Evolution, and Behavior (EEB) Seminar
+# Spring 2020 schedule
+
+seminars:
+  - date: "January 15, 2010"
+    title: "TBA"
+    speaker: "Google"
+    speaker_website: "https://www.google.com"
+    host: "John Doe - Texas Tech University"
+    host_website: "https://www.depts.ttu.edu/biol/"
+    is_cancelled: false
+
+  - date: "January 22, 2010"
+    title: "TBA"
+    speaker: "TBA"
+    speaker_website: ""
+    host: "TBA"
+    host_website: ""
+    is_cancelled: false
+
+  - date: "January 29, 2020"
+    title: "TBA"
+    speaker: "TBA"
+    speaker_website: ""
+    host: "TBA"
+    host_website: ""
+    is_cancelled: false
+    
+  - date: "February 05, 2020"
+    title: "TBA"
+    speaker: "TBA"
+    speaker_website: ""
+    host: "TBA"
+    host_website: ""
+    is_cancelled: false
+
+  - date: "February 12, 2020"
+    title: "TBA"
+    speaker: "TBA"
+    speaker_website: ""
+    host: "TBA"
+    host_website: ""
+    is_cancelled: false
+
+  - date: "February 19, 2020"
+    title: "TBA"
+    speaker: "TBA"
+    speaker_website: ""
+    host: "TBA"
+    host_website: ""
+    is_cancelled: false
+
+  - date: "February 26, 2020"
+    title: "TBA"
+    speaker: "TBA"
+    speaker_website: ""
+    host: "TBA"
+    host_website: ""
+    is_cancelled: false
+
+  - date: "March 04, 2020"
+    title: "TBA"
+    speaker: "TBA"
+    speaker_website: ""
+    host: "TBA"
+    host_website: ""
+    is_cancelled: false
+
+  - date: "March 11, 2020"
+    title: "TBA"
+    speaker: "TBA"
+    speaker_website: ""
+    host: "TBA"
+    host_website: ""
+    is_cancelled: false
+
+  - date: "March 18, 2020"
+    is_holiday: true
+    holiday_name: "Spring Break"
+
+  - date: "March 25, 2020"
+    title: "TBA"
+    speaker: "TBA"
+    speaker_website: ""
+    host: "TBA"
+    host_website: ""
+    is_cancelled: false
+
+  - date: "April 01, 2020"
+    title: "TBA"
+    speaker: "TBA"
+    speaker_website: ""
+    host: "TBA"
+    host_website: ""
+    is_cancelled: false
+
+  - date: "April 08, 2020"
+    title: "TBA"
+    speaker: "TBA"
+    speaker_website: ""
+    host: "TBA"
+    host_website: ""
+    is_cancelled: false
+
+  - date: "April 15, 2020"
+    title: "TBA"
+    speaker: "TBA"
+    speaker_website: ""
+    host: "TBA"
+    host_website: ""
+    is_cancelled: false
+
+  - date: "April 22, 2020"
+    title: "TBA"
+    speaker: "TBA"
+    speaker_website: ""
+    host: "TBA"
+    host_website: ""
+    is_cancelled: false
+
+  - date: "April 29, 2020"
+    title: "TBA"
+    speaker: "TBA"
+    speaker_website: ""
+    host: "TBA"
+    host_website: ""
+    is_cancelled: false
