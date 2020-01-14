@@ -19,11 +19,11 @@ seminars:
     is_cancelled: false
 
   - date: "January 29, 2020"
-    title: "TBA"
-    speaker: "TBA"
-    speaker_website: ""
-    host: "TBA"
-    host_website: ""
+    title: "Fragmentation of the playa wetland network."
+    speaker: "Dr. Nancy McIntyre"
+    speaker_website: "https://www.depts.ttu.edu/biology/people/Faculty/mcintyre/"
+    host: "Dr. Ken Schmidt"
+    host_website: "https://www.depts.ttu.edu/biology/people/Faculty/Schmidt/"
     is_cancelled: false
     
   - date: "February 05, 2020"
