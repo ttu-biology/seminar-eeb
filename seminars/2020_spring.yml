@@ -11,11 +11,11 @@ seminars:
     is_cancelled: false
 
   - date: "January 22, 2020"
-    title: "TBA"
-    speaker: "TBA"
-    speaker_website: ""
-    host: "TBA"
-    host_website: ""
+    title: "Plants aren’t dumb: Using optimality theory to address big questions in plant ecophysiology"
+    speaker: "Dr. Nick Smith"
+    speaker_website: "https://www.depts.ttu.edu/biology/people/Faculty/smith/"
+    host: "Dr. Ken Schmidt"
+    host_website: "https://www.depts.ttu.edu/biology/people/Faculty/Schmidt/"
     is_cancelled: false
 
   - date: "January 29, 2020"
@@ -23,13 +23,12 @@ seminars:
     speaker: "Dr. Nancy McIntyre"
     speaker_website: "https://www.depts.ttu.edu/biology/people/Faculty/mcintyre/"
     host: "Dr. Ken Schmidt"
-    host_website: "https://www.depts.ttu.edu/biology/people/Faculty/Schmidt/"
     is_cancelled: false
     
   - date: "February 05, 2020"
-    title: "TBA"
-    speaker: "TBA"
-    speaker_website: ""
+    title: "Information use and the eology of fear in breeding passerines"
+    speaker: "Dr. Ken Schmidt"
+    speaker_website: "https://www.depts.ttu.edu/biology/people/Faculty/Schmidt/"
     host: "TBA"
     host_website: ""
     is_cancelled: false
