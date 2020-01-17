@@ -78,8 +78,8 @@ seminars:
     holiday_name: "Spring Break"
 
   - date: "March 25, 2020"
-    title: "TBA"
-    speaker: "Dr.  Nik Cunniffe"
+    title: "Using mathematical models to optimize control of invading plant pathogens."
+    speaker: "Dr. Nik Cunniffe"
     speaker_website: "https://www.plantsci.cam.ac.uk/research/nikcunniffe"
     host: "Dr. Linda Allen and Dr. Ken Schmidt"
     host_website: "https://www.depts.ttu.edu/biology/people/Faculty/Schmidt/"
@@ -94,11 +94,11 @@ seminars:
     is_cancelled: false
 
   - date: "April 08, 2020"
-    title: "TBA"
-    speaker: "TBA"
+    title: "Comparative Demography of Central American birds inhabiting pine-oak forests."
+    speaker: "Jack Hruska"
     speaker_website: ""
-    host: "TBA"
-    host_website: ""
+    host: "Dr. Joe Manthey"
+    host_website: "https://www.depts.ttu.edu/biology/people/Faculty/Manthey/"
     is_cancelled: false
 
   - date: "April 15, 2020"
