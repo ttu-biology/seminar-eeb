@@ -86,19 +86,19 @@ seminars:
     is_cancelled: false
 
   - date: "April 01, 2020"
-    title: "TBA"
-    speaker: "TBA"
-    speaker_website: ""
-    host: "TBA"
-    host_website: ""
-    is_cancelled: false
-
-  - date: "April 08, 2020"
     title: "Comparative Demography of Central American birds inhabiting pine-oak forests."
     speaker: "Jack Hruska"
     speaker_website: ""
     host: "Dr. Joe Manthey"
     host_website: "https://www.depts.ttu.edu/biology/people/Faculty/Manthey/"
+    is_cancelled: false
+
+  - date: "April 08, 2020"
+    title: "TBA"
+    speaker: "TBA"
+    speaker_website: ""
+    host: "TBA"
+    host_website: ""
     is_cancelled: false
 
   - date: "April 15, 2020"
