@@ -26,7 +26,7 @@ seminars:
     is_cancelled: false
     
   - date: "February 05, 2020"
-    title: "Information use and the eology of fear in breeding passerines"
+    title: "Information use and the ecology of fear in breeding passerines"
     speaker: "Dr. Ken Schmidt"
     speaker_website: "https://www.depts.ttu.edu/biology/people/Faculty/Schmidt/"
     host: "TBA"
@@ -34,11 +34,11 @@ seminars:
     is_cancelled: false
 
   - date: "February 12, 2020"
-    title: "TBA"
-    speaker: "TBA"
-    speaker_website: ""
-    host: "TBA"
-    host_website: ""
+    title: "Using Herbarium specimens to understand genetics and physiological responses to land use and climate change in the Guadalupe Mountains"
+    speaker: "Dr. Matt Johnson"
+    speaker_website: "https://www.depts.ttu.edu/biology/people/Faculty/Johnson/"
+    host: "Dr. Ken Schmidt"
+    host_website: "https://www.depts.ttu.edu/biology/people/Faculty/Schmidt/"
     is_cancelled: false
 
   - date: "February 19, 2020"
