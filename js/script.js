@@ -3,7 +3,7 @@
 //script.js
 
 (function () {
-  var seminars = 'https://raw.githubusercontent.com/WilliamBarela/eeb-seminar/master/seminars/2020_spring.yml';
+  var seminars = 'https://raw.githubusercontent.com/ttu-biology/seminar-eeb/master/seminars/2020_spring.yml';
 
   /* fetch statement which uses the updateUISuccess and updateUIFailure functions to create the UI */
   fetch(seminars).then(function (response) {
@@ -63,10 +63,11 @@
   }
 
   function setRowClass(row, seminar) {
+	row.setAttribute('class', 'seminar');
     let seminar_date = new Date(seminar.date);
     let now = new Date();
     if(seminar_date < now){
-      row.setAttribute('class', 'past_seminar');
+      row.setAttribute('class', 'seminar past_seminar');
     }
   }
 
