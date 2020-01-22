@@ -111,10 +111,10 @@ seminars:
 
   - date: "April 22, 2020"
     title: "TBA"
-    speaker: "TBA"
+    speaker: "Dr. Diana Moreno"
     speaker_website: ""
-    host: "TBA"
-    host_website: ""
+    host: "Dr. Ken Schmidt"
+    host_website: "https://www.depts.ttu.edu/biology/people/Faculty/Schmidt/"
     is_cancelled: false
 
   - date: "April 29, 2020"
