@@ -4,11 +4,17 @@
   border:0;
 }
 
+article#seminars {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 section.seminar {
   width: 100%;
   height: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 20px;
   background: grey;
   background-image: linear-gradient(rgb(204,204,204), rgb(215,215,215), rgb(220,220,220), rgb(215,215,215), rgb(204,204,204));

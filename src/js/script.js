@@ -63,41 +63,41 @@
   }
 
   function setRowClass(row, seminar) {
-	row.setAttribute('class', 'seminar');
+	row.classList.add('seminar');
     let seminar_date = new Date(seminar.date);
     let now = new Date();
     if(seminar_date < now){
-      row.setAttribute('class', 'seminar past_seminar');
+      row.classList.add('seminar', 'past_seminar');
     }
   }
 
   function setHoliday(seminar, holiday_name){
-    holiday_name.setAttribute('class', 'holiday');
+    holiday_name.classList.add('holiday');
     holiday_name.textContent = `Holiday: ${seminar.holiday_name}`;
   }
 
   function setDate(seminar, date){
-    date.setAttribute('class', 'date');
+    date.classList.add('date');
     date.textContent = seminar.date;
   }
 
   function setTitle(seminar, title){
-    title.setAttribute('class', 'title');
+    title.classList.add('title');
     title.textContent = `Title: ${seminar.title}`;
   }
 
   function setSpeaker(seminar, speaker){
-    speaker.setAttribute('class', 'speaker');
+    speaker.classList.add('speaker');
     setSpeakerWebsite(seminar, speaker);
   }
 
   function setSpeakerWebsite(seminar, speaker){
     if(seminar.speaker_website !== ''){
       let speaker_website = document.createElement('a');
-      speaker_website.setAttribute('class', 'speaker_website');
-      speaker_website.setAttribute('href', seminar.speaker_website);
-      speaker_website.setAttribute('title', seminar.speaker);
-      speaker_website.setAttribute('target', '_blank');
+      speaker_website.classList.add('speaker_website');
+      speaker_website.href = seminar.speaker_website;
+      speaker_website.title = seminar.speaker;
+      speaker_website.target = '_blank';
       speaker_website.textContent = seminar.speaker;
 
       speaker.textContent = "Speaker: ";
@@ -109,17 +109,17 @@
   }
 
   function setHost(seminar, host){
-    host.setAttribute('class','host');
+    host.classList.add('host');
     setHostWebsite(seminar, host);
   }
 
   function setHostWebsite(seminar, host){
     if(seminar.host_website !== ''){
       let host_website = document.createElement('a');
-      host_website.setAttribute('class', 'host_website');
-      host_website.setAttribute('href', seminar.host_website);
-      host_website.setAttribute('title', seminar.host);
-      host_website.setAttribute('target', '_blank');
+      host_website.classList.add('host_website');
+      host_website.href = seminar.host_website;
+      host_website.title = seminar.host;
+      host_website.target = '_blank';
       host_website.textContent = seminar.host;
 
       host.textContent = "Host: ";
