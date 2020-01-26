@@ -39,6 +39,12 @@
     setDate(seminar, date);
     date_img.appendChild(date);
 
+    let advert = document.createElement('img');
+    advert.classList.add('advert');
+    advert.src = 'img/eeb_hruska.jpg';
+    date_img.appendChild(advert);
+
+
     if(seminar.is_holiday === true){
       genHolidayRow(title_speaker, seminar);
     }
@@ -63,8 +69,8 @@
   }
 
   function genHolidayRow(title_speaker, seminar){
-    let holiday_name = document.createElement('div')
-    holiday_name.classList.add('holiday');
+    title_speaker.classList.add('holiday');
+    let holiday_name = document.createElement('div');
     holiday_name.textContent = `Holiday: ${seminar.holiday_name}`;
 
     title_speaker.appendChild(holiday_name);
