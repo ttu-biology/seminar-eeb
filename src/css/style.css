@@ -11,6 +11,7 @@ article#seminars {
 }
 
 section.seminar {
+  display: flex;
   width: 100%;
   height: auto;
   margin-top: 10px;

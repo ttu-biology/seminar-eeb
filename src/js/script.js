@@ -29,37 +29,45 @@
 
   function genRow(seminar_list, seminar){
     let row = document.createElement('section');
+    let date_img = document.createElement('div');
+    let title_speaker = document.createElement('div');
+
+    date_img.classList.add('date_img');
+    title_speaker.classList.add('title_speaker');
+
     let date = document.createElement('h3');
     setDate(seminar, date);
-    row.appendChild(date);
+    date_img.appendChild(date);
 
     if(seminar.is_holiday === true){
-      genHolidayRow(row, date, seminar_list, seminar);
+      genHolidayRow(title_speaker, seminar);
     }
     else{
-      genSeminarRow(row, date, seminar_list, seminar);
+      genSeminarRow(title_speaker, seminar);
     }
 
     setRowClass(row, seminar);
+
+    row.appendChild(date_img);
+    row.appendChild(title_speaker);
+    seminar_list.appendChild(row);
   }
   
-  function genSeminarRow(row, date, seminar_list, seminar){
+  function genSeminarRow(title_speaker, seminar){
     let title = document.createElement('div');
     let speaker = document.createElement('div');
     let host = document.createElement('div');
 
-    setRowElements(seminar, date, title, speaker, host);
-    appendRowElements(row, date, title, speaker, host);
-    seminar_list.appendChild(row);
+    setRowElements(seminar, title, speaker, host);
+    appendRowElements(title_speaker, title, speaker, host);
   }
 
-  function genHolidayRow(row, date, seminar_list, seminar){
+  function genHolidayRow(title_speaker, seminar){
     let holiday_name = document.createElement('div')
+    holiday_name.classList.add('holiday');
+    holiday_name.textContent = `Holiday: ${seminar.holiday_name}`;
 
-    setHoliday(seminar, holiday_name)
-    row.appendChild(date); 
-    row.appendChild(holiday_name);
-    seminar_list.appendChild(row);
+    title_speaker.appendChild(holiday_name);
   }
 
   function setRowClass(row, seminar) {
@@ -71,24 +79,10 @@
     }
   }
 
-  function setHoliday(seminar, holiday_name){
-    holiday_name.classList.add('holiday');
-    holiday_name.textContent = `Holiday: ${seminar.holiday_name}`;
-  }
 
   function setDate(seminar, date){
     date.classList.add('date');
     date.textContent = seminar.date;
-  }
-
-  function setTitle(seminar, title){
-    title.classList.add('title');
-    title.textContent = `Title: ${seminar.title}`;
-  }
-
-  function setSpeaker(seminar, speaker){
-    speaker.classList.add('speaker');
-    setSpeakerWebsite(seminar, speaker);
   }
 
   function setSpeakerWebsite(seminar, speaker){
@@ -108,11 +102,6 @@
     }
   }
 
-  function setHost(seminar, host){
-    host.classList.add('host');
-    setHostWebsite(seminar, host);
-  }
-
   function setHostWebsite(seminar, host){
     if(seminar.host_website !== ''){
       let host_website = document.createElement('a');
@@ -130,16 +119,21 @@
     }
   }
 
-  function setRowElements(seminar, date, title, speaker, host){
-    setTitle(seminar, title);
-    setSpeaker(seminar, speaker);
-    setHost(seminar, host);
+  function setRowElements(seminar, title, speaker, host){
+    title.classList.add('title');
+    title.textContent = `Title: ${seminar.title}`;
+
+    speaker.classList.add('speaker');
+    setSpeakerWebsite(seminar, speaker);
+    
+    host.classList.add('host');
+    setHostWebsite(seminar, host);
   }
 
-  function appendRowElements(row, date, title, speaker, host){
-    row.appendChild(title);
-    row.appendChild(speaker);
-    row.appendChild(host);
+  function appendRowElements(title_speaker, title, speaker, host){
+    title_speaker.appendChild(title);
+    title_speaker.appendChild(speaker);
+    title_speaker.appendChild(host);
   }
 
   /* in case of fetch failure, this function defaults */
