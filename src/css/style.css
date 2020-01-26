@@ -12,16 +12,32 @@ article#seminars {
 
 section.seminar {
   display: flex;
+  justify-content: start;
   width: 100%;
   height: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 20px;
+  padding: 10px;
   background: grey;
   background-image: linear-gradient(rgb(204,204,204), rgb(215,215,215), rgb(220,220,220), rgb(215,215,215), rgb(204,204,204));
   border-style: groove;
   border-width: 3px;
   border-radius: 10px;
+}
+
+div.date_img {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 1;
+  flex-shrink: 0;
+  flex-basis: 240px;
+  padding: 0 5px;
+  background-color: pink;
+}
+
+div.title_speaker {
+  background-color: lightGreen;
+  margin-left: 0.5em
 }
 
 h3.date {
