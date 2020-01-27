@@ -4,6 +4,7 @@
 seminars:
   - date: "January 15, 2020"
     title: "TBA"
+    seminar_image: ""
     speaker: "TBA"
     speaker_website: ""
     host: "TBA"
@@ -12,6 +13,7 @@ seminars:
 
   - date: "January 22, 2020"
     title: "Plants aren’t dumb: Using optimality theory to address big questions in plant ecophysiology"
+    seminar_image: "eeb_smith.jpg"
     speaker: "Dr. Nick Smith"
     speaker_website: "https://www.depts.ttu.edu/biology/people/Faculty/smith/"
     host: "Dr. Ken Schmidt"
@@ -20,6 +22,7 @@ seminars:
 
   - date: "January 29, 2020"
     title: "Fragmentation of the playa wetland network."
+    seminar_image: "eeb_mcintyre.jpg"
     speaker: "Dr. Nancy McIntyre"
     speaker_website: "https://www.depts.ttu.edu/biology/people/Faculty/mcintyre/"
     host: "Dr. Ken Schmidt"
@@ -27,6 +30,7 @@ seminars:
     
   - date: "February 05, 2020"
     title: "Information use and the ecology of fear in breeding passerines"
+    seminar_image: ""
     speaker: "Dr. Ken Schmidt"
     speaker_website: "https://www.depts.ttu.edu/biology/people/Faculty/Schmidt/"
     host: "TBA"
@@ -35,6 +39,7 @@ seminars:
 
   - date: "February 12, 2020"
     title: "Using Herbarium specimens to understand genetics and physiological responses to land use and climate change in the Guadalupe Mountains"
+    seminar_image: ""
     speaker: "Dr. Matt Johnson"
     speaker_website: "https://www.depts.ttu.edu/biology/people/Faculty/Johnson/"
     host: "Dr. Ken Schmidt"
@@ -43,6 +48,7 @@ seminars:
 
   - date: "February 19, 2020"
     title: "TBA"
+    seminar_image: ""
     speaker: "TBA"
     speaker_website: ""
     host: "TBA"
@@ -51,6 +57,7 @@ seminars:
 
   - date: "February 26, 2020"
     title: "TBA"
+    seminar_image: ""
     speaker: "TBA"
     speaker_website: ""
     host: "TBA"
@@ -59,6 +66,7 @@ seminars:
 
   - date: "March 04, 2020"
     title: "TBA"
+    seminar_image: ""
     speaker: "TBA"
     speaker_website: ""
     host: "TBA"
@@ -67,6 +75,7 @@ seminars:
 
   - date: "March 11, 2020"
     title: "TBA"
+    seminar_image: ""
     speaker: "TBA"
     speaker_website: ""
     host: "TBA"
@@ -79,6 +88,7 @@ seminars:
 
   - date: "March 25, 2020"
     title: "Using mathematical models to optimize control of invading plant pathogens."
+    seminar_image: ""
     speaker: "Dr. Nik Cunniffe"
     speaker_website: "https://www.plantsci.cam.ac.uk/research/nikcunniffe"
     host: "Dr. Linda Allen and Dr. Ken Schmidt"
@@ -87,6 +97,7 @@ seminars:
 
   - date: "April 01, 2020"
     title: "TBA"
+    seminar_image: "eeb_manthey.jpg"
     speaker: "Dr. Joe Manthey"
     speaker_website: "https://www.depts.ttu.edu/biology/people/Faculty/Manthey/"
     host: "Dr. Ken Schmidt"
@@ -95,14 +106,16 @@ seminars:
 
   - date: "April 08, 2020"
     title: "Comparative Demography of Central American birds inhabiting pine-oak forests."
+    seminar_image: ""
     speaker: "Jack Hruska"
-    speaker_website: ""
+    speaker_website: "eeb_hruska.jpg"
     host: "Dr. Joe Manthey"
     host_website: "https://www.depts.ttu.edu/biology/people/Faculty/Manthey/"
     is_cancelled: false
 
   - date: "April 15, 2020"
     title: "TBA"
+    seminar_image: ""
     speaker: "TBA"
     speaker_website: ""
     host: "TBA"
@@ -111,6 +124,7 @@ seminars:
 
   - date: "April 22, 2020"
     title: "TBA"
+    seminar_image: ""
     speaker: "Dr. Diana Moreno"
     speaker_website: ""
     host: "Dr. Ken Schmidt"
@@ -119,6 +133,7 @@ seminars:
 
   - date: "April 29, 2020"
     title: "TBA"
+    seminar_image: ""
     speaker: "TBA"
     speaker_website: ""
     host: "TBA"
