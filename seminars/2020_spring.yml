@@ -2,15 +2,6 @@
 # Spring 2020 schedule
 
 seminars:
-  - date: "January 15, 2020"
-    title: "TBA"
-    seminar_image: ""
-    speaker: "TBA"
-    speaker_website: ""
-    host: "TBA"
-    host_website: ""
-    is_cancelled: false
-
   - date: "January 22, 2020"
     title: "Plants aren’t dumb: Using optimality theory to address big questions in plant ecophysiology"
     seminar_image: "eeb_smith.jpg"
