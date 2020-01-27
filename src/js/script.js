@@ -39,11 +39,7 @@
     setDate(seminar, date);
     date_img.appendChild(date);
 
-    let advert = document.createElement('img');
-    advert.classList.add('advert');
-    advert.src = 'img/eeb_hruska.jpg';
-    date_img.appendChild(advert);
-
+    setAdvert(date_img, seminar);
 
     if(seminar.is_holiday === true){
       genHolidayRow(title_speaker, seminar);
@@ -68,6 +64,19 @@
     appendRowElements(title_speaker, title, speaker, host);
   }
 
+  function setAdvert(date_img, seminar){
+    if(!seminar.seminar_image){
+      let placeholder = document.createElement('div');
+      placeholder.classList.add('advert_placeholder');
+      date_img.appendChild(placeholder);
+    } else {
+      let advert = document.createElement('img');
+      advert.classList.add('advert');
+      advert.src = `img/${seminar.seminar_image}`;
+      date_img.appendChild(advert);
+    }
+  }
+
   function genHolidayRow(title_speaker, seminar){
     title_speaker.classList.add('holiday');
     let holiday_name = document.createElement('div');
@@ -84,7 +93,6 @@
       row.classList.add('seminar', 'past_seminar');
     }
   }
-
 
   function setDate(seminar, date){
     date.classList.add('date');
