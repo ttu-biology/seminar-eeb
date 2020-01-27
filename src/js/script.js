@@ -39,7 +39,7 @@
     setDate(seminar, date);
     date_img.appendChild(date);
 
-    setAdvert(date_img, seminar);
+    setAdvert(date_img, seminar, row);
 
     if(seminar.is_holiday === true){
       genHolidayRow(title_speaker, seminar);
@@ -64,7 +64,7 @@
     appendRowElements(title_speaker, title, speaker, host);
   }
 
-  function setAdvert(date_img, seminar){
+  function setAdvert(date_img, seminar, row){
     let placeholder = document.createElement('div');
     if(!seminar.seminar_image){
       placeholder.classList.add('advert_placeholder');
@@ -79,6 +79,7 @@
       advert.src = `img/${seminar.seminar_image}`;
 
       advert.onclick = function(){
+        row.style.opacity = 1;
         placeholder.style.display = "block";
       };
 
@@ -93,6 +94,9 @@
       closer.classList.add('close');
       closer.innerHTML = "&times;";
       closer.onclick = function(){
+        if(row.classList.contains('past_seminar')){
+          row.style.opacity = 0.6;
+        }
         placeholder.style.display = "none";
       }
 

@@ -44,9 +44,12 @@ div.title_speaker {
   margin-bottom: 15px;
 }
 
-.title_speaker>div.speaker,
-.title_speaker>div.host{
-  margin-top: 15px;
+.title_speaker>div.speaker {
+  margin-top: 35px;
+}
+
+.title_speaker>div.host {
+  margin-top: 10px;
 }
 
 .title_speaker.title{
@@ -103,20 +106,56 @@ div.advert_placeholder {
   position: fixed;
   z-index: 4;
   left: 0;
-  top: 0;
-  margin: 0;
-  padding-top: 100%;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0,0,0,0.4);
+  padding: 50px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: rgba(0,0,0,0.9);
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(204,0,0,1);
+  text-align: center;
 }
 
-.modal_content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
+.advert:hover,
+.advert:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img.modal_content {
+  margin: 0;
+  display: relative;
+  width: 720px;
+  height: auto;
+}
+
+.close {
+  display: relative;
+  position: fixed;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(204,0,0,0.4);
+  transition: 0.3s;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(0,0,0,0.2);
+  margin: 5px;
+  padding: 5px;
+  background-color: rgba(204,204,204,0.2);
+}
+
+.close:hover,
+.close:focus {
+  color: rgba(204,0,0,1);
+  background-color: rgba(204,204,204,1);
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  text-decoration: none;
+  cursor: pointer;
+  transform: rotate(-90deg);
 }
 
 .holiday {
@@ -128,4 +167,24 @@ div.advert_placeholder {
 .holiday>div {
   text-align: center;
   font-size: 1.3em;
+}
+
+@media screen and (max-width: 1440px) {
+  .modal{
+    padding: 50px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .modal{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
 }
