@@ -92,6 +92,11 @@ img.advert {
   padding: 0;
 }
 
+div.advert_placeholder {
+  height: 135px;
+  width: auto;
+}
+
 .holiday {
   flex-grow: 1;
   justify-content: center;
