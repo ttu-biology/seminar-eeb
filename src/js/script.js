@@ -65,15 +65,42 @@
   }
 
   function setAdvert(date_img, seminar){
+    let placeholder = document.createElement('div');
     if(!seminar.seminar_image){
-      let placeholder = document.createElement('div');
       placeholder.classList.add('advert_placeholder');
       date_img.appendChild(placeholder);
     } else {
       let advert = document.createElement('img');
+      let modal_advert = document.createElement('img');
+      let closer = document.createElement('span');
+      let caption = document.createElement('div');
+
       advert.classList.add('advert');
       advert.src = `img/${seminar.seminar_image}`;
+
+      advert.onclick = function(){
+        placeholder.style.display = "block";
+      };
+
       date_img.appendChild(advert);
+
+
+      placeholder.classList.add('modal');
+
+      modal_advert.classList.add("modal_content");
+      modal_advert.src = `img/${seminar.seminar_image}`;
+
+      closer.classList.add('close');
+      closer.innerHTML = "&times;";
+      closer.onclick = function(){
+        placeholder.style.display = "none";
+      }
+
+      caption.classList.add('caption');
+
+      placeholder.appendChild(closer);
+      placeholder.appendChild(modal_advert);
+      date_img.appendChild(placeholder);
     }
   }
 
