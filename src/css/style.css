@@ -188,3 +188,48 @@ img.modal_content {
     margin-right: 0%;
   }
 }
+
+@media screen and (max-width: 575px) {
+  section.seminar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: grey;
+    background-image: linear-gradient(rgb(204,204,204), rgb(215,215,215), rgb(220,220,220), rgb(215,215,215), rgb(204,204,204));
+  }
+
+  div.date_img {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-basis: auto;
+    align-items: center;
+    padding: 0 5px;
+    margin-bottom: 5px;
+  }
+
+  img.advert {
+    height: auto;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+  }
+
+  div.advert_placeholder {
+    display: none;
+  }
+
+  .modal{
+    display: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
