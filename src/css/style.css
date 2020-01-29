@@ -18,11 +18,10 @@ section.seminar {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
-  background: grey;
-  background-image: linear-gradient(rgb(204,204,204), rgb(215,215,215), rgb(220,220,220), rgb(215,215,215), rgb(204,204,204));
+  background: rgba(204,204,204,1);
   border-style: groove;
-  border-width: 3px;
-  border-radius: 10px;
+  border-color: rgba(0,0,0,0.6);
+  border-width: 2px;
 }
 
 div.date_img {
@@ -93,6 +92,7 @@ img.advert {
   width: auto;
   margin: 0;
   padding: 0;
+  transition: ease-in 0.2s;
 }
 
 div.advert_placeholder {
@@ -121,6 +121,7 @@ div.advert_placeholder {
 .advert:focus {
   text-decoration: none;
   cursor: pointer;
+  transform: scale(1.04);
 }
 
 img.modal_content {
@@ -199,8 +200,6 @@ img.modal_content {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
-    background: grey;
-    background-image: linear-gradient(rgb(204,204,204), rgb(215,215,215), rgb(220,220,220), rgb(215,215,215), rgb(204,204,204));
   }
 
   div.date_img {
