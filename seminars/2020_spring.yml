@@ -57,21 +57,21 @@ seminars:
     is_cancelled: false
 
   - date: "March 04, 2020"
-    title: "Understanding Migration Diversity: Synthesizing a framework for Investigating Complex Patterns of Migration"
-    seminar_image: "eeb_clerc.jpg"
-    speaker: "Jeff Clerc"
-    speaker_website: ""
-    host: "Dr. Ken Schmidt"
-    host_website: "https://www.depts.ttu.edu/biology/people/Faculty/Schmidt/"
-    is_cancelled: false
-
-  - date: "March 11, 2020"
     title: "TBA"
     seminar_image: ""
     speaker: "TBA"
     speaker_website: ""
     host: "TBA"
     host_website: ""
+    is_cancelled: false
+
+  - date: "March 11, 2020"
+    title: "Understanding Migration Diversity: Synthesizing a framework for Investigating Complex Patterns of Migration"
+    seminar_image: "eeb_clerc.jpg"
+    speaker: "Jeff Clerc"
+    speaker_website: ""
+    host: "Dr. Ken Schmidt"
+    host_website: "https://www.depts.ttu.edu/biology/people/Faculty/Schmidt/"
     is_cancelled: false
 
   - date: "March 18, 2020"
