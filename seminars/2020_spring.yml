@@ -22,7 +22,7 @@ seminars:
     
   - date: "February 05, 2020"
     title: "Information use and the ecology of fear in breeding passerines"
-    seminar_image: ""
+    seminar_image: "eeb_schmidt.jpg"
     speaker: "Dr. Ken Schmidt"
     speaker_website: "https://www.depts.ttu.edu/biology/people/Faculty/Schmidt/"
     host: "TBA"
@@ -31,7 +31,7 @@ seminars:
 
   - date: "February 12, 2020"
     title: "Using Herbarium specimens to understand genetics and physiological responses to land use and climate change in the Guadalupe Mountains"
-    seminar_image: ""
+    seminar_image: "eeb_johnson.jpg"
     speaker: "Dr. Matt Johnson"
     speaker_website: "https://www.depts.ttu.edu/biology/people/Faculty/Johnson/"
     host: "Dr. Ken Schmidt"
@@ -66,12 +66,12 @@ seminars:
     is_cancelled: false
 
   - date: "March 11, 2020"
-    title: "TBA"
-    seminar_image: ""
-    speaker: "TBA"
+    title: "Understanding Migration Diversity: Synthesizing a framework for Investigating Complex Patterns of Migration"
+    seminar_image: "eeb_clerc.jpg"
+    speaker: "Jeff Clerc"
     speaker_website: ""
-    host: "TBA"
-    host_website: ""
+    host: "Dr. Ken Schmidt"
+    host_website: "https://www.depts.ttu.edu/biology/people/Faculty/Schmidt/"
     is_cancelled: false
 
   - date: "March 18, 2020"
@@ -106,12 +106,12 @@ seminars:
     is_cancelled: false
 
   - date: "April 15, 2020"
-    title: "TBA"
-    seminar_image: ""
-    speaker: "TBA"
+    title: "Digging into population genetics and distributions of Texas Geomyoid rodents"
+    seminar_image: "eeb_halsey.jpg"
+    speaker: "Michaela Halsey"
     speaker_website: ""
-    host: "TBA"
-    host_website: ""
+    host: "Dr. Ken Schmidt"
+    host_website: "https://www.depts.ttu.edu/biology/people/Faculty/Schmidt/"
     is_cancelled: false
 
   - date: "April 22, 2020"
