@@ -21,11 +21,11 @@ seminars:
     is_cancelled: false
     
   - date: "February 05, 2020"
-    title: "Information use and the ecology of fear in breeding passerines"
-    seminar_image: "eeb_schmidt.jpg"
-    speaker: "Dr. Ken Schmidt"
-    speaker_website: "https://www.depts.ttu.edu/biology/people/Faculty/Schmidt/"
-    host: "TBA"
+    title: "CANCELED"
+    seminar_image: ""
+    speaker: "NA"
+    speaker_website: ""
+    host: "NA"
     host_website: ""
     is_cancelled: false
 
@@ -39,11 +39,11 @@ seminars:
     is_cancelled: false
 
   - date: "February 19, 2020"
-    title: "TBA"
-    seminar_image: ""
-    speaker: "TBA"
-    speaker_website: ""
-    host: "TBA"
+    title: "Information use and the ecology of fear in breeding passerines"
+    seminar_image: "eeb_schmidt.jpg"
+    speaker: "Dr. Ken Schmidt"
+    speaker_website: "https://www.depts.ttu.edu/biology/people/Faculty/Schmidt/"
+    host: "NA"
     host_website: ""
     is_cancelled: false
 
